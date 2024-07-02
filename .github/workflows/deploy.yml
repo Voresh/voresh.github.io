@@ -1,0 +1,45 @@
+name: Deploy cv to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+#      - name: html to pdf
+#        uses: fifsky/html-to-pdf-action@master
+#        with:
+#          htmlFile: ./public/index.html
+#          outputFile: ./public/cv.pdf
+#          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      - name: HTML to PDF
+        uses: ferdinandkeller/html-to-pdf-action@v1
+        with:
+          source-path: './public'
+          destination-path: './public/cv.pdf'
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
