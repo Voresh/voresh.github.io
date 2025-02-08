@@ -4,17 +4,16 @@ title: /quotes
 permalink: /quotes/
 ---
 
-# Quotes collection
+# Quotes
 
-J.R.R. Tolkien: 
+## J.R.R. Tolkien: 
 ```Short cuts make long delays```
 
-Linus Torvalds: 
+## Linus Torvalds: 
 ```Bad programmers worry about the code. Good programmers worry about data structures and their relationships```
 
-Fred Brooks: 
+## Fred Brooks: 
 ```Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious.```
 
-
-Test video:
-<iframe width="640" height="360" src="https://www.youtube.com/embed/rX0ItVEVjHc" title="CppCon 2014: Mike Acton &quot;Data-Oriented Design and C++&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Edsger Dijkstra:
+```If we wish to count lines of code, we should not regard them as "lines produced" but as "lines spent".```
