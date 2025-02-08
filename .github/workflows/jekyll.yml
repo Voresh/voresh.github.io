@@ -41,7 +41,7 @@ jobs:
       - name: Resize and compress images
         run: |
             cd books/
-            mogrify -resize 250x700 -quality 85 *.png *.jpg *.jpeg 
+            mogrify -resize 250x700 -quality 85 *.jpg
       # Build cv
       - name: Prepare CV build
         run: |
