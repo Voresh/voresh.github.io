@@ -39,7 +39,7 @@ jobs:
           mkdir cv
           cp cv.html cv/index.html
       - name: HTML to PDF
-        uses: ferdinandkeller/html-to-pdf-action@v1
+        uses: ferdinandkeller/html-to-pdf-action@v2.1
         with:
           source-path: './cv'
           destination-path: './cv.pdf'
