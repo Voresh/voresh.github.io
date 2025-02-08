@@ -8,7 +8,9 @@ theme: jekyll-theme-console
 header_pages:
   - index.md
   - articles.md
+  - books.md
   - vids.md
+  - courses.md
   - quotes.md
   - about.md
 
