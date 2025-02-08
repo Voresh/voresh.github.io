@@ -7,8 +7,8 @@ theme: jekyll-theme-console
 
 header_pages:
   - index.md
-  - about.md
   - quotes.md
+  - about.md
 
 style: dark # dark (default), light or hacker
 # listen_for_clients_preferred_style: true # false (default) or true
