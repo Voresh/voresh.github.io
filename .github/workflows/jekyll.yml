@@ -40,6 +40,7 @@ jobs:
           sudo apt install -y imagemagick
       - name: Resize and compress images
         run: |
+            cd books/
             mogrify -resize 250x700 -quality 85 *.png *.jpg *.jpeg 
       # Build cv
       - name: Prepare CV build
