@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vladimir Oreshkov</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            body {
+                font-family: "Roboto", sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #f4f4f4;
+            }
+
+            a:link {
+                color: #212121;
+            }
+
+            a:visited {
+                color: #212121;
+            }
+
+            a:hover {
+                color: #212121;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: #212121;
+            }
+
+            .resume {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 960px;
+                margin: auto;
+                background: #fff;
+                padding: 20px;
+            }
+
+            .columns {
+                display: flex;
+            }
+
+            header {
+                display: flex;
+                flex: 1;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 0px;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+                /* border-bottom: 1px solid #3c4043; */
+            }
+
+            header .name h1 {
+                font-size: 24px;
+                color: #212121;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            header .name p {
+                font-size: 18px;
+                color: #212121;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            header .contact {
+                text-align: right;
+                font-size: 14px;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            header .contact p {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            .summary {
+                margin-top: 0px;
+                margin-bottom: 5px;
+            }
+
+            .summary h2 {
+                color: #212121;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .left-column {
+                flex: 0.6;
+                padding-right: 10px;
+            }
+
+            .right-column {
+                flex: 0.4;
+                padding-left: 10px;
+            }
+
+            section {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            section h2 {
+                font-size: 20px;
+                color: #212121;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            section h3 {
+                font-size: 18px;
+                color: #212121;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            section li {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            section ul {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            section p {
+                font-size: 16px;
+                color: #212121;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            section .job {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+
+            section .job-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+
+            section .job-title h3 {
+                margin: 0;
+            }
+
+            section .job-date {
+                margin: 0;
+                white-space: nowrap;
+                font-style: italic;
+                color: #212121;
+            }
+
+            section .job-position p {
+                margin-bottom: 5px;
+            }
+
+            section .job-summary p {
+                margin-bottom: 3px;
+            }
+
+            section .space {
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .print-hidden {
+                display: block;
+            }
+
+            .link {
+                display: block;
+            }
+
+            .link-replacement {
+                display: none;
+            }
+
+            @media (max-width: 768px) {
+                .resume {
+                    flex-direction: row;
+                }
+
+                .columns {
+                    flex-direction: column;
+                }
+
+                .left-column,
+                .right-column {
+                    padding: 0;
+                }
+            }
+
+            @media print {
+                .resume {
+                    flex-direction: column;
+                    padding: 20px;
+                }
+
+                .columns {
+                    flex-direction: row;
+                }
+
+                .left-column {
+                    flex: 0.6;
+                    padding-right: 10px;
+                }
+
+                .right-column {
+                    flex: 0.4;
+                    padding-left: 10px;
+                }
+
+                .link {
+                    display: none;
+                }
+
+                .link-replacement {
+                    display: block;
+                }
+
+                .print-hidden {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="resume">
+            <header>
+                <div class="name">
+                    <h1>Vladimir Oreshkov</h1>
+                    <p>Software Engineer (Stockholm)</p>
+                </div>
+                <div class="contact">
+                    <a href="https://github.com/Voresh" class="link">GitHub</a>
+                    <a
+                        href="https://www.linkedin.com/in/vladimir-oreshkov-4a1b04101/"
+                        class="link"
+                        >LinkedIn</a
+                    >
+                    <a href="mailto:voresh95@gmail.com" class="link">Email</a>
+                    <!-- <p class="link-replacement">https://www.linkedin.com/in/vladimir-oreshkov-4a1b04101/</p> -->
+                    <p class="link-replacement">voresh95@gmail.com</p>
+                    <p class="link-replacement">https://github.com/Voresh</p>
+                </div>
+            </header>
+
+            <div class="summary">
+                <section>
+                    <!-- <h2>Summary</h2> -->
+                    <p>
+                        Software Engineer with over 7 years of experience in
+                        commercial development. A generalist focused on
+                        programming, with particular interest in engine,
+                        graphics, and tool development using C/C++, Odin, and Zig.
+                        Constantly learning and currently practicing
+                        Data-Oriented Design while developing a game engine.
+                    </p>
+                </section>
+            </div>
+
+            <div class="columns">
+                <div class="left-column">
+                    <section>
+                        <h2>Work Experience</h2>
+
+                        <div class="job">
+                            <div class="job-title">
+                                <h3>Shared Tech Developer</h3>
+                                <p class="job-date">October 2022 — now</p>
+                            </div>
+                            <div class="job-position">
+                                <p>MAG Interactive</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>
+                                    Working in a Core team, providing shared
+                                    tech and tools for game teams.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>Shared tech dev</li>
+                                <li>MacOS/Linux server administration</li>
+                                <li>CI/CD dev and maintenance</li>
+                                <li>Documentation pipeline dev</li>
+                                <li>
+                                    Developing Roslyn analyzers/code generators
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="job">
+                            <div class="job-title">
+                                <h3>Indie Developer</h3>
+                                <p class="job-date">
+                                    February 2022 — October 2022
+                                </p>
+                            </div>
+                            <div class="job-position">
+                                <p>Self Employed</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>
+                                    Created mobile Action RPG with Asp Net Core
+                                    Backend.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>Custom backend (Asp Net Core)</li>
+                                <li>Custom DI/Reactive frameworks</li>
+                                <li>Custom AI framework (behaviour tree)</li>
+                                <li>Procedural generation</li>
+                                <li>Vegetation rendering</li>
+                                <li>Own postprocessing stack</li>
+                            </ul>
+                        </div>
+
+                        <div class="job">
+                            <div class="job-title">
+                                <h3>Tech-lead</h3>
+                                <p class="job-date">
+                                    December 2018 — February 2022
+                                </p>
+                            </div>
+                            <div class="job-position">
+                                <p>GDCompany</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>
+                                    Took part in the whole development cycle
+                                    from prototyping to distribution in google
+                                    play/app store.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>Synchronous Multiplayer 10k CCU+</li>
+                                <li>Steel Rage 10m+ downloads</li>
+                                <li>Developers management</li>
+                                <li>Photon (Server solution)</li>
+                                <li>
+                                    Own delta compression/time sync/reliable UDP
+                                </li>
+                                <li>Cross-project libs dev</li>
+                                <li>Achieved 3 month dev cycle</li>
+                                <li>Windows server management (IIS)</li>
+                                <li>Android to iOS porting</li>
+                                <li>Interviewing new employees</li>
+                            </ul>
+                        </div>
+
+                        <div class="job">
+                            <div class="job-title">
+                                <h3>Team-lead</h3>
+                                <p class="job-date">
+                                    October 2018 — December 2018
+                                </p>
+                            </div>
+                            <div class="job-position">
+                                <p>Ambidexter</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>
+                                    Developed a project that combines tower
+                                    defense and match-3 genres. We successfully
+                                    finished development on time under my
+                                    leadership.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>Custom ECS-like framework</li>
+                                <li>Zenject</li>
+                                <li>UniRx</li>
+                                <li>Managing a team of 6 people</li>
+                                <!-- <li>Planning</li>
+		     <li>Task distribution</li> -->
+                            </ul>
+                        </div>
+
+                        <div class="job">
+                            <div class="job-title">
+                                <h3>Game Developer</h3>
+                                <p class="job-date">
+                                    August 2017 — October 2018
+                                </p>
+                            </div>
+                            <div class="job-position">
+                                <p>Ambidexter</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>
+                                    Developing PokemonGo-like GPS/AR MMORPG game
+                                    using Unity for frontend and Photon Server
+                                    for backend.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>Photon (Server solution)</li>
+                                <li>ARCore</li>
+                                <li>GPS</li>
+                                <li>iOS to Android porting</li>
+                                <li>Downloadable content pipeline</li>
+                            </ul>
+                        </div>
+
+                        <div class="job">
+                            <div class="job-title">
+                                <h3>Game Developer (freelance)</h3>
+                                <p class="job-date">June 2013 — August 2017</p>
+                            </div>
+                            <div class="job-position">
+                                <p>Self Employed</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>
+                                    Developing different games and apps,
+                                    released Indie-Horror game.
+                                </p>
+                            </div>
+                            <ul>
+                                <li>Unity (C#)</li>
+                                <li>Photoshop/Blender</li>
+                                <li>Native Android development (Java)</li>
+                                <li>Xamarin</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="right-column">
+                    <section>
+                        <h2>Hard Skills</h2>
+                        <ul>
+                            <li>Graphics programming</li>
+                            <li>Tools dev</li>
+                            <li>GPU/CPU optimization</li>
+                            <li>Network traffic optimization</li>
+                            <li>Server dev (api-based/realtime)</li>
+                            <li>Software architecture</li>
+                            <li>Mobile dev (Android/iOS)</li>
+                            <li>Linux/Windows/MacOS servers administration</li>
+                            <li>CI/CD pipeline development</li>
+                        </ul>
+                        <div class="space"></div>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>C#</li>
+                            <li>Java</li>
+                            <li>GLSL/HLSL</li>
+                        </ul>
+                        <div class="space"></div>
+                        <ul>
+                            <li>OpenGL</li>
+                            <li>Unity</li>
+                            <li>Godot</li>
+                            <li>OGRE</li>
+                            <li>ASP Net Core</li>
+                            <li>Git</li>
+                            <li>Jenkins/TeamCity/GitHub Actions</li>
+                        </ul>
+                        <div class="space"></div>
+                        <ul>
+                            <li>Developers management</li>
+                            <li>Freelancers/remote employees management</li>
+                            <li>Tasks distribution</li>
+                            <li>Planning</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Soft Skills</h2>
+                        <ul>
+                            <li>Teamwork</li>
+                            <li>Responsibility</li>
+                            <li>Problem solving</li>
+                            <li>Efficient communication with tech/non-tech</li>
+                            <li>Planning and prioritizing</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Education</h2>
+                        <ul>
+                            <li>
+                                Higher education (bachelor degree with Honors) -
+                                National Research University of Electronic
+                                Technology (MIET)
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>English - fluent</li>
+                            <li>Russian - native</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <section class="print-hidden">
+                <a href="cv.pdf" download="cv.pdf">Download</a>
+            </section>
+        </div>
+    </body>
+</html>
