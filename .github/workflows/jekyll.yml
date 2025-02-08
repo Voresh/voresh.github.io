@@ -33,6 +33,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      # Optimize images
+      - name: Install ImageMagick
+        run: |
+          sudo apt update
+          sudo apt install -y imagemagick
+      - name: Resize and compress images
+        run: |
+            mogrify -resize 250x700 -quality 85 *.png *.jpg *.jpeg 
       # Build cv
       - name: Prepare CV build
         run: |
