@@ -37,7 +37,7 @@ jobs:
       - name: HTML to PDF
         uses: ferdinandkeller/html-to-pdf-action@v1
         with:
-          source-path: './cv.html'
+          source-path: './cv'
           destination-path: './cv.pdf'
       # Build cv
       - name: Setup Ruby
