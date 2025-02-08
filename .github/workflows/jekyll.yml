@@ -34,6 +34,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       # Build cv
+      - name: Prepare CV build
+        run: |
+          mkdir cv
+          cp cv.html cv/index.html
       - name: HTML to PDF
         uses: ferdinandkeller/html-to-pdf-action@v1
         with:
