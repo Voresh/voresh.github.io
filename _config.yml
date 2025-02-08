@@ -14,3 +14,6 @@ style: dark # dark (default), light or hacker
 # listen_for_clients_preferred_style: true # false (default) or true
 
 footer: 'voresh@protonmail.com'
+
+markdown: kramdown
+highlighter: rouge
