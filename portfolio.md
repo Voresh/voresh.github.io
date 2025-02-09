@@ -12,8 +12,6 @@ carousels:
     - image: /steel_rage/unnamed5.jpg
 ---
 
-TODO: add descriptions, years etc
-
 ## Commercial
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
