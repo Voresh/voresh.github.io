@@ -18,7 +18,13 @@ permalink: /portfolio/
 
 ### Grand Wars: Mafia City
 
-https://play.google.com/store/apps/details?id=com.gdcompany.grandwars.mafiacity&hl=en
+> Make your own crime family and conquer a city with 💣Grand Wars: Mafia City💣, top down tactical PvP action shooter for 4 players.
+
+- [Google Play](https://play.google.com/store/apps/details?id=com.gdcompany.grandwars.mafiacity&hl=en)
+
+<br/>
+
+{% include image-gallery.html folder="assets/images/grand_wars" %}
 
 ## Indie
 
