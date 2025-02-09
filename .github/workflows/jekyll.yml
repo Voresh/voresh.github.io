@@ -40,10 +40,9 @@ jobs:
           sudo apt install -y imagemagick
       - name: Resize and compress images
         run: |
-            cd books/
-            mogrify -resize 250x700 -quality 85 *.jpg
-            cd ../steel_rage
-            mogrify -quality 85 *.jpg
+            mogrify -resize 250x700 -quality 85 assets/images/books/*
+            mkdir -p assets/thumbnails/steel_rage
+            mogrify -path assets/thumbnails/steel_rage -resize 300x300 -quality 85 assets/images/steel_rage/*.jpg 
       # Build cv
       - name: Prepare CV build
         run: |
