@@ -27,3 +27,5 @@ https://realtimecollisiondetection.net/blog/?p=44
 https://realtimecollisiondetection.net/blog/?p=81
 
 https://nullprogram.com/blog/2017/10/06/
+
+https://antirez.com/news/145
