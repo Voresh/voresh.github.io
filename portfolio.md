@@ -11,7 +11,6 @@ permalink: /portfolio/
 > Got tired from heavy tanks and giant war robots? Hurry to download Steel Rage, online car shooter game! Fight players from all over the world in new FREE PvP shooter with mech cars. Choose car, chassis, combat weapons, abilities and blitz into battle. Upgrade and customize your cars according to your taste and combat style. Be a champion of the game!
 
 - [Google Play](https://play.google.com/store/apps/datasafety?id=com.gdcompany.robocars.shooterwarfare&hl=en&pli=1)
-- [App Store](https://apps.apple.com/us/app/steel-rage-mech-cars-pvp-war/id1519819112)
 
 <br/>
 
