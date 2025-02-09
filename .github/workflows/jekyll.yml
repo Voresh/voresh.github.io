@@ -42,6 +42,7 @@ jobs:
       - name: Resize and compress images
         run: |
           make build_thumbnails
+          mogrify -resize 250x700 -quality 85 assets/images/books/*
       # Build cv
       - name: Prepare CV build
         run: |
