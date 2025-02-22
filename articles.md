@@ -13,6 +13,7 @@ permalink: /articles/
 - [Programming pragmatist proverbs](https://www.gingerbill.org/article/2020/05/31/progamming-pragmatist-proverbs/)
 - [Design patterns are from hell!](https://realtimecollisiondetection.net/blog/?p=44)
 - [Design patterns are from hell^2](https://realtimecollisiondetection.net/blog/?p=81)
+- [The Power of 10: Rules for Developing Safety-Critical Code](http://web.eecs.umich.edu/~imarkov/10rules.pdf)
 
 ## Educational
 
