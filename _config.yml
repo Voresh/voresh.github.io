@@ -1,4 +1,4 @@
-title: "voresh blog"
+title: "voresh lib"
 repository: Voresh/voresh.github.io
 baseurl: ""
 url: "https://voresh.github.io/"
@@ -8,6 +8,7 @@ theme: jekyll-theme-console
 header_pages:
   - index.md
   - articles.md
+  - sources.md
   - books.md
   - vids.md
   - courses.md
