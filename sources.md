@@ -16,6 +16,7 @@ permalink: /sources/
 - [Dooom](https://github.com/id-Software/DOOM)
 - [Quake](https://github.com/id-Software/Quake)
 - [Quake 3 Arena](https://github.com/id-Software/Quake-III-Arena)
+- [Command & Conquer Remastered Collection](https://github.com/electronicarts/CnC_Remastered_Collection)
 
 ### Open source
 

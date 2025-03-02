@@ -22,6 +22,7 @@ permalink: /articles/
 - [Memory allocation strategies](https://www.gingerbill.org/series/memory-allocation-strategies/)
 - [Structure packing](http://www.catb.org/esr/structure-packing/)
 - [A Branchless UTF-8 Decoder](https://nullprogram.com/blog/2017/10/06/)
+- [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 ## Political
 
