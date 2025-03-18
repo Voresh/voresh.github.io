@@ -29,3 +29,4 @@ permalink: /articles/
 - [Handmade network manifesto](https://handmade.network/manifesto)
 - [Clean code horrible performance](https://www.computerenhance.com/p/clean-code-horrible-performance)
 - [We are destroying software](https://antirez.com/news/145)
+- [No Silver Bullet Essence and Accidents of Software Engineering](https://www.cs.unc.edu/techreports/86-020.pdf)
