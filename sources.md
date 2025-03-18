@@ -9,6 +9,7 @@ permalink: /sources/
 ### Commercial open sourced
 
 - [Source SDK 2013](https://github.com/ValveSoftware/source-sdk-2013)
+- [Half Life](https://github.com/ValveSoftware/halflife)
 - [xray (Stalker)](https://github.com/OpenXRay/xray)
 - [Wolfenstein 3D](https://github.com/id-Software/wolf3d)
 - [Quake 2](https://github.com/id-Software/Quake-2)
