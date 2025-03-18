@@ -18,3 +18,6 @@ permalink: /quotes/
 
 ## Christer Ericson
 > Design patterns are spoonfeed material for brainless programmers incapable of independent thought, who will be resolved to producing code as mediocre as the design patterns they use to create it.
+
+## Terry Davis
+> An idiot admires complexity, a genius admires simplicity.
