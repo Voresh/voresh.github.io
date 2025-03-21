@@ -21,3 +21,6 @@ permalink: /quotes/
 
 ## Terry Davis
 > An idiot admires complexity, a genius admires simplicity.
+
+## Alan Kay
+> Unfortunately, inheritance—though an incredibly powerful technique—has turned out to be very difficult for novices (and even professionals) to deal with. 
