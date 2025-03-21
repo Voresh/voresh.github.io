@@ -24,3 +24,6 @@ permalink: /quotes/
 
 ## Alan Kay
 > Unfortunately, inheritance—though an incredibly powerful technique—has turned out to be very difficult for novices (and even professionals) to deal with. 
+
+## John Carmack
+> It is not that uncommon for the cost of an abstraction to outweigh the benefit it delivers. Kill one today!
