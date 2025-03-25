@@ -12,7 +12,7 @@ permalink: /portfolio/
 
 - [Google Play](https://play.google.com/store/apps/datasafety?id=com.gdcompany.robocars.shooterwarfare&hl=en&pli=1)
 
-<br/>
+<br>
 
 {% include image-gallery.html folder="assets/images/steel_rage" %}
 
@@ -22,16 +22,32 @@ permalink: /portfolio/
 
 - [Google Play](https://play.google.com/store/apps/details?id=com.gdcompany.grandwars.mafiacity&hl=en)
 
-<br/>
+<br>
 
 {% include image-gallery.html folder="assets/images/grand_wars" %}
 
 ## Indie
 
-https://play.google.com/store/apps/details?id=com.piratedachshund.riverfalltalesepicheroes&hl=en
+### Riverfall Tales: Epic Heroes
+
+> Start off on a classical, old school hack and slash adventure like no other in "Riverfall Tales: Epic Heroes". The ultimate slasher RPG where demons and zombies await your wrath! Gather your team of battle-hardened mercenaries and dive into the depths of darkest dungeons.
+
+- [Google Play](https://play.google.com/store/apps/details?id=com.piratedachshund.riverfalltalesepicheroes&hl=en)
+
+<br>
+
+{% include image-gallery.html folder="assets/images/riverfall_tales" %}
 
 ## Game jams
 
-https://github.com/Voresh/YourHomeIsYourMind
+### Your Home Is Your Mind
 
-https://github.com/Voresh/GDJam21
+> Point'n'click PC game that I built during a Game Jam in 3 days.
+
+- [GitHub](https://github.com/Voresh/YourHomeIsYourMind)
+
+### Unnamed shooter
+
+> Mobile shooter game that I built during a Game Jam in 3 days.
+
+- [GitHub](https://github.com/Voresh/GDJam21)
