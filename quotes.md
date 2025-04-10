@@ -27,3 +27,6 @@ permalink: /quotes/
 
 ## John Carmack
 > It is not that uncommon for the cost of an abstraction to outweigh the benefit it delivers. Kill one today!
+
+## Stewart Lynch
+> It is a slow library (STL) it is overcomplex, it tries to be too generic to be good for everyone, but its not that really good for anyone.
