@@ -12,7 +12,7 @@ I've always been intrigued by the idea of being a librarian. I read and watch a 
 
 ## About me
 
-Trying to be a good engineer. I work professionally in game development and currently taking a course in 6502 assembly, building a pet project based on the STM32 Blue Pill, and developing an indie 2D game using OpenGL.
+Trying to be a good engineer. I work professionally in game development and currently taking "Computer, Enhance!" course by Casey Muratori, building a pet project based on the STM32 Blue Pill, and developing games on my own OpenGL-based engine.
 
 ## Contacts
 
