@@ -20,7 +20,7 @@ header_pages:
 style: dark # dark (default), light or hacker
 listen_for_clients_preferred_style: true # false (default) or true
 
-footer: '<a href="mailto:voresh@protonmail.com">[voresh@protonmail.com]</a> <a href="/cv.html">[cv]</a>'
+footer: '<a href="mailto:voresh@protonmail.com">[voresh@protonmail.com]</a> <a href="/cv.html">[cv]</a> <a href="https://github.com/Voresh">[github]</a>'
 
 markdown: kramdown
 highlighter: rouge
