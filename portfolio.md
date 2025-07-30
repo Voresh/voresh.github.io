@@ -6,7 +6,8 @@ permalink: /portfolio/
 
 ## Curiosity Engine
 
-An OpenGL-based 2D/3D game engine written from scratch: https://codeberg.org/voresh/Curiosity
+
+**An OpenGL-based 2D/3D game engine written from scratch:** [Curiosity](https://codeberg.org/voresh/Curiosity)
 
 ## Commercial
 
