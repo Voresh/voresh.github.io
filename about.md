@@ -17,5 +17,5 @@ Trying to be a good engineer. I work professionally in game development and curr
 ## Contacts
 
 - email: <a href="mailto:voresh@protonmail.com">voresh@protonmail.com</a> 
-- github: <a href="https://github.com/Voresh">https://github.com/Voresh</a>
-- cv (outdated): <a href="/cv.html">open</a>/<a href="/cv.pdf">download</a>
+- cv: <a href="/Vladimir Oreshkov CV.pdf">download</a>
+- code: <a href="https://codeberg.org/voresh">https://codeberg.org/voresh</a>
