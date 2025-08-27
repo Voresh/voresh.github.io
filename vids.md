@@ -10,6 +10,8 @@ permalink: /vids/
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/GPpD4BBtA1Y" title="Code Clinic 2015: How to Write Code the Compiler Can Actually Optimize" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t15T_BkOtm0?si=GVchan0fxjTK9qes" title="Christer Ericson: Game Development Memory Optimization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/eAhWIO1Ra6M" title="Advice for Writing Small Programs in C" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/VAT9E-M-PoE" title="Pitfalls of Object Oriented Programming, Revisited - Tony Albrecht (TGC 2017)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -31,6 +33,8 @@ permalink: /vids/
 <iframe width="640" height="360" src="https://www.youtube.com/embed/xt1KNDmOYqA" title="Casey Muratori | Smart-Pointers, RAII, ZII? Becoming an N+2 programmer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tD5NrevFtbU" title="&quot;Clean&quot; Code, Horrible Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jxeEhDFfOmI?si=rOS7q_MmK9qShm2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Other
 
