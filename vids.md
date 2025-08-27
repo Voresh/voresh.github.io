@@ -26,6 +26,8 @@ permalink: /vids/
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/4B00hV3wmMY" title="Solving the Right Problems for Engine Programmers - Mike Acton‌  (TGC 2017)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Eb4-0M2a9xE?si=nMoCwWtDjGqmH-Jf" title="Scott Bilas - A Data-Driven Game Object System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/443UNeGrFoM" title="How I program C" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zSHvEAKLFJw" title="Reduce System Complexity with Data-Oriented Programming • Yehonathan Sharvit • GOTO 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -34,7 +36,7 @@ permalink: /vids/
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tD5NrevFtbU" title="&quot;Clean&quot; Code, Horrible Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jxeEhDFfOmI?si=rOS7q_MmK9qShm2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jxeEhDFfOmI?si=rOS7q_MmK9qShm2Q" title="Core Dump: Day 1 - Leadership, Allocators & the Demo Scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Other
 
