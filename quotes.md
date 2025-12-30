@@ -30,3 +30,6 @@ permalink: /quotes/
 
 ## Stewart Lynch
 > It is a slow library (STL) it is overcomplex, it tries to be too generic to be good for everyone, but its not that really good for anyone.
+
+## Andreas Fredriksson
+> I think that is the thing we as programmers are very poor at doing which is to step away from what I think is reasonable and be willing to listen to someone who is going to make you uncomfortable. If you work with someone who's extremely artistic, right? Or someone who wants to sort of push the envelope and stuff, it's going to be uncomfortable. You are going to be like, I don't know if we can do that. But if you push through and you persevere, that's how you get great stuff.
